@@ -1,0 +1,16 @@
+{
+    "q": "Does Swami speak about The Matrix movie?",
+    "c": "Anecdotal",
+    "k": "matrix movie, the matrix",
+    "a": " While Swami Sarvapriyananda does not directly reference the movie The Matrix in the provided lecture, he does touch upon a concept that is similar to one of the film's central themes. When discussing the story of Swami Sivananda, who was a disciple of Sri Ramakrishna, Swami Sarvapriyananda talks about how Swami Sivananda, after having a stroke and becoming partially paralyzed, distinguished between his true self (the unaffected) and his physical body (the affected). This idea of a separate, unchanging self that exists beyond the physical world is reminiscent of the red pill/blue pill choice presented to the character Neo in The Matrix. In the movie, taking the red pill represents choosing to see the harsh reality that the world is actually a simulated one, while taking the blue pill means living in blissful ignorance within the simulated world. Similarly, Swami Sivananda chose to recognize the distinction between his true self (the unaffected) and his physical body (the affected), rather than identifying solely with his physical condition.",
+    "r": [
+        {
+            "title": "8. Bhagavad Gita I Chapter 2 Verses 20-22 I Swami Sarvapriyananda",
+            "link": "https://www.youtube.com/watch?v=mawD3Xf5JQA&t=4292",
+            "ep_id": "mawD3Xf5JQA",
+            "content": "happened and a part of the body was paralyzed and they had to go to physio. Luckily, they were able to save him and physiotherapy and he regained most of the activity. Still, there was a tremor in the hand and all of that. And all it did was it increased his curiosity about the brain and he read books about the brain and he would later explain it to you in great detail what exactly happens in the brain. What about you, Swami? Oh, I'm fine. Swami Sivananda, the disciple of Sri Ramakrishna, when he was very ill, he also had a stroke and he was partially paralyzed. When people came to meet him in Belur Math in the main monastery, he was the president of the order. Swami, we heard, how are you feeling now? He said, oh, I'm fine. No, Swami, we heard about this. Oh, you mean the body? Oh, it's not at all good. It's very bad. And they're not being funny and it's not very difficult either. When you make the shift, clearly, it's not you don't have to pretend to be not affected. You can clearly see there is something which is not at all affected, absolutely not affected and you can see that there is a shift. Absolutely not affected. And there is something which is affected and the two are not equally real. That which is not affected is real. That which is affected, you can say it's a tiny part or it's just an appearance. Vedanta would say it's just an appearance in the non-affected real. So that's a good point to end it on. All it says, I mean, it sounds very easy. All it says, you"
+        }
+    ],
+    "prompt_type": "rag",
+    "prompt_id": "B"
+}

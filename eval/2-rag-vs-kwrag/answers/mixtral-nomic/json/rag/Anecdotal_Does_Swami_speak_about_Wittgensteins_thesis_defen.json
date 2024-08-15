@@ -1,0 +1,16 @@
+{
+    "q": "Does Swami speak about Wittgenstein's thesis defense?",
+    "c": "Anecdotal",
+    "k": "wittgenstein",
+    "a": " In the provided passage, Swami Sarvapriyananda does not speak explicitly about Wittgenstein's thesis defense. Instead, he uses Wittgenstein as an example to illustrate a point about the importance of understanding the meaning behind words, rather than just repeating them. He mentions an instance where Wittgenstein's student wrote down his words verbatim, but Wittgenstein still disagreed, stating that the student did not understand the meaning he intended by those words. This anecdote is used to highlight the Advaita Vedanta philosophy, specifically the concept that 'everything is Brahman' and the distinction between 'all is God' and 'all is not, God only is'. Therefore, while Swami Sarvapriyananda does mention Wittgenstein, he does not discuss Wittgenstein's thesis defense.",
+    "r": [
+        {
+            "title": "Introduction to Vedanta - Swami Sarvapriyananda - Aparokshanubhuti - Part 17 \u2013 November 29, 2016",
+            "link": "https://www.youtube.com/watch?v=rplIHU12t1E&t=3346",
+            "ep_id": "rplIHU12t1E",
+            "content": "there is a description of him, as if he is struggling with something great inside. And what he would say would become philosophy, so people would write it down. And those notebooks are still being read as a source of philosophy today. Now, whatever you said, Professor, you said this and I want to clarify, and Wittgenstein would say, no, I didn't say it. And one of the students thought, I have to catch this guy. So he wrote down exactly what Wittgenstein had said, and in the next class said, Professor, you said this, and Wittgenstein, as usual, said, no, I didn't say that. And the student said, you did. Here are the words. I wrote it down exactly as you said it. And Wittgenstein said, yes, those are the words, you are repeating my words, but you don't mean what I mean by those words. Which is an important thing. Everything is Brahman. Advaita means that in only one particular sense. What is the sense? Advaita means everything is false, Brahman only is real. Mary Hale, an American disciple of Swami Vivekananda, who was a favourite of Swami Vivekananda, she wrote a poem to Swami Vivekananda, saying that I have understood what you have taught, that all is God. And he wrote back in verse to her another poem, that I have never taught such strange things, that all is God. She was outraged. You have said it yourself so many times, that all is God. Then he wrote back, no, what I have taught is, all is not, God only is. There is a great difference between all is God, and all is not,"
+        }
+    ],
+    "prompt_type": "rag",
+    "prompt_id": "B"
+}

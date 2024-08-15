@@ -1,0 +1,16 @@
+{
+    "q": "Can AI ever become conscious?",
+    "c": "Explanatory",
+    "k": "ai, conscious",
+    "a": " Based on Swami Sarvapriyananda's lecture, the current consensus among AI programmers and experts is that AI is not considered conscious. AI can exhibit various intelligent behaviors such as memory, creativity, and decision-making power. However, when it comes to consciousness, Swami Sarvapriyananda explains that it means \"the feeling of life itself, the capability of experiencing.\"\n\nHe uses the example of self-driving cars in San Francisco, which can navigate the streets efficiently without a driver. Even though they perform better than human drivers in many aspects, self-driving cars lack the sensory experiences and feelings associated with human consciousness, such as the sense of sound, sight, and the continuous feeling of making decisions.\n\nTherefore, according to Swami Sarvapriyananda, AI cannot become conscious as it is not capable of having sensory experiences and the feeling of life. It is essential to understand that this viewpoint is from Swami Sarvapriyananda and the experts in the field, and the debate on AI consciousness is ongoing as technology continues to evolve.",
+    "r": [
+        {
+            "title": "Ask Swami with Swami Sarvapriyananda | May 28th, 2023",
+            "link": "https://www.youtube.com/watch?v=XR-uQeCT1lg&t=4528",
+            "ep_id": "XR-uQeCT1lg",
+            "content": "and hundreds all day long, all different poems and all pretty good. If you ask me to write a poem on Vivekananda, I could. But it would be maybe difficult for me to write one and I would take time over it. And if you ask me to keep writing poems every minute, I couldn't. None of us could. So AI can do those things. It can do just about everything they are capable of doing except one thing, which is consciousness. If you say, are you stipulating this? Are you saying that these things are not conscious? I always say that let's not get into this debate at all. It's not worthwhile. Ask the experts. Ask the people who are doing this programming. All of them will say, yes, we are making a claim that AI is intelligent, AI has memory, creativity, decision-making power. None of us are claiming that AI is conscious. By conscious, I mean, you have to understand what is meant by consciousness. Consciousness simply means the feeling of life itself, the capability of experiencing. I give the example of in San Francisco, you have these, what do you call them, self-driving cars, Google self-driving cars. It's very strange seeing one of them pull up next to you. No passenger, no driver, nothing. And driving merrily along, better than you. Now, but tell me one thing which is not there, you see, when you are driving the car, you have the sense of sound and sight and continuous feeling of taking decisions, sometimes anxiety, especially in San Francisco you will have very steep ups and downs. So"
+        }
+    ],
+    "prompt_type": "rag",
+    "prompt_id": "B"
+}

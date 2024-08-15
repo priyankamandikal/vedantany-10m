@@ -1,0 +1,9 @@
+data
+models
+logs
+
+*.egg-info
+__pycache__/
+node_modules/
+.next/
+.DS_Store
