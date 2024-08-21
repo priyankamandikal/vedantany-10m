@@ -1,5 +1,6 @@
 # VedantaNY-10M
 This repository contains the source code for the paper [Ancient Wisdom, Modern Tools: Exploring Retrieval-Augmented LLMs for Ancient Indian Philosophy](https://sites.google.com/view/vedantany-10m).
+
 **Outstanding Paper** at [*Machine Learning for Ancient Languages (ACL Workshop), 2024*](https://www.ml4al.com/index.html)
 
 
@@ -23,7 +24,7 @@ LLMs have revolutionized the landscape of information retrieval and knowledge di
 
 ## Dataset
 
-We provide transcripts for 612 lectures on the Indian philosophy of Advaita Vedanta from the [Vedanta Society of New York](vedantany.org). They are automatically generated from the [OpenAI Whisper](https://github.com/openai/whisper) large-v2 model. Download the transcript data (data.zip) from [here](https://drive.google.com/drive/folders/1IIn9LgfQVxahKZriTXWG66UjtGn99Nns), unzip it and place it in the project directory. This should result in a folder called data which contains all the transcript data to be chunked, embedded and stored in the vectordb.
+We provide transcripts for 690 lectures on the Indian philosophy of Advaita Vedanta from the [Vedanta Society of New York](vedantany.org). They are automatically generated from the [OpenAI Whisper](https://github.com/openai/whisper) large-v2 model. The transcripts are provided up to Aug 20th 2024. Download the transcript data (data.zip) from [here](https://drive.google.com/drive/folders/1IIn9LgfQVxahKZriTXWG66UjtGn99Nns), unzip it and place it in the project directory. This should result in a folder called data which contains all the transcript data to be chunked, embedded and stored in the vectordb.
 
 ## Setup
 
