@@ -109,7 +109,14 @@ from utils.ensemble_retriever import CustomEnsembleRetriever
 The evaluation dataset comprising 25 queries across 5 categories is in `eval/2-rag-vs-kwrag/queries.xlsx`. Answers from different models are in `eval/2-rag-vs-kwrag/answers`.
 
 ### Human survey
-We provide anonymized responses of our human survey in `eval/1-rag-vs-no-rag/human_survey.xslx` and `eval/2-rag-vs-kwrag/human_survey.xslx`. They contain numbered ratings for each LLM answer as well as long-form feedback.
+We provide anonymized responses of our human survey. They contain numbered ratings for each LLM answer as well as long-form feedback.
+- RAG vs Non-RAG
+    - [All reviewers](https://docs.google.com/spreadsheets/d/1W22BuL8zr33K8TUQNvGI0DrKxFVYaXeH/pubhtml) 
+- KW-RAG
+    - [Reviewer 1](https://docs.google.com/spreadsheets/d/1t0pRlNldFu7mxzvtPJ5VRTAv1K8jqk1q/pubhtml)
+    - [Reviewer 2](https://docs.google.com/spreadsheets/d/1mLfzi12juDVjKxs7vV4cEi6--xKxOeoz/pubhtml)
+    - [Reviewer 3](https://docs.google.com/spreadsheets/d/1EoLwzVbbxGHRYg0GZzGlGvztMes_FgN7/pubhtml)
+    
 
 
 ### Automatic metrics
