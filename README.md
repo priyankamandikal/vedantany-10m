@@ -27,8 +27,7 @@ LLMs have revolutionized the landscape of information retrieval and knowledge di
 We use transcripts for 612 lectures on the Indian philosophy of Advaita Vedanta from the [Vedanta Society of New York (VSNY)](vedantany.org). They are automatically generated from the [OpenAI Whisper](https://github.com/openai/whisper) large-v2 model.
 
 Code for generating transcripts is provided in the `transcription` folder. Please follow the steps below:
-1. **Download audio:** You can either generate transcripts for all videos on VSNY's YouTube channel up to the current date or use the videos used in the paper (up to March 24th 2024). The list of videos used is provided in [bot.csv](https://drive.google.com/drive/folders/1IIn9LgfQVxahKZriTXWG66UjtGn99Nns). Download the csv file and place it in `data/metadata/large-v2/episodes`. 
-<br/>    
+1. **Download audio:** You can either generate transcripts for all videos on VSNY's YouTube channel up to the current date or use the videos used in the paper (up to March 24th 2024). The list of videos used is provided in [bot.csv](https://drive.google.com/drive/folders/1IIn9LgfQVxahKZriTXWG66UjtGn99Nns). Download the csv file and place it in `data/metadata/large-v2/episodes`.
     - Download audio files using the list used in the paper:
         ```shell
         python transcription/download_audio.py --download-from-csv --csv-file bot.csv
