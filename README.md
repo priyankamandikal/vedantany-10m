@@ -24,28 +24,66 @@ LLMs have revolutionized the landscape of information retrieval and knowledge di
 
 ## Dataset
 
-We provide transcripts for 690 lectures on the Indian philosophy of Advaita Vedanta from the [Vedanta Society of New York](vedantany.org). They are automatically generated from the [OpenAI Whisper](https://github.com/openai/whisper) large-v2 model. The transcripts are provided up to Aug 20th 2024. Download the transcript data (data.zip) from [here](https://drive.google.com/drive/folders/1IIn9LgfQVxahKZriTXWG66UjtGn99Nns), unzip it and place it in the project directory. This should result in a folder called data which contains all the transcript data to be chunked, embedded and stored in the vectordb.
+We use transcripts for 612 lectures on the Indian philosophy of Advaita Vedanta from the [Vedanta Society of New York (VSNY)](vedantany.org). They are automatically generated from the [OpenAI Whisper](https://github.com/openai/whisper) large-v2 model.
+
+Code for generating transcripts is provided in the `transcription` folder. Please follow the steps below:
+1. **Download audio:** You can either generate transcripts for all videos on VSNY's YouTube channel up to the current date or use the videos used in the paper (up to March 24th 2024). The list of videos used is provided in [bot.csv](https://drive.google.com/drive/folders/1IIn9LgfQVxahKZriTXWG66UjtGn99Nns). Download the csv file and place it in `data/metadata/large-v2/episodes`. 
+<br/>    
+    - Download audio files using the list used in the paper:
+        ```shell
+        python transcription/download_audio.py --download-from-csv --csv-file bot.csv
+        ```
+    - Alternately, download all audio files from VSNY up to the current date:
+        ```shell
+        python transcription/download_audio.py
+        ```
+    - To update the list from time-to-time, you can use the `--skip-saved` flag:
+        ```shell
+        python transcription/download_audio.py --skip-saved
+        ```
+
+2. **Split audio:** Based on available resources, split the metadata into chunks that can be processed in parallel.
+    - Single machine: number of chunks is 1 by default (n=1)
+        ```shell
+        python split_audio.py
+        ```
+    - Multiple GPUs and/or machines: Set n as per your requirement
+        ```shell
+        python split_audio.py --n 8
+        ```
+
+3. **Generate transcripts:** 
+    - To run on a single machine, you can run the following command:
+        ```shell
+        python transcription/run_whisper.py
+        ```
+    - To run in parallel, please edit `scripts/run_whisper.sh` as per your requirements and run as:
+        ```shell
+        bash scripts/run_whisper.sh
+        ```
+
+Once the transcription is complete, the `data` folder should contain all the transcript data to be chunked, embedded and stored in the vectordb.
 
 ## Setup
 
 #### Conda environment
 1. Create a conda environment called 'vedantany10m':
 
-```shell
-conda create -n vedantany10m python=3.10
-conda activate vedantany10m
-```
+    ```shell
+    conda create -n vedantany10m python=3.10
+    conda activate vedantany10m
+    ```
 
 2. Install required packages:
-```shell
-pip install -r requirements.txt 
-```
+    ```shell
+    pip install -r requirements.txt 
+    ```
 
 3. Install spacy models
-```shell
-python -m spacy download en_core_web_sm
-python -m spacy download en_core_web_lg
-```
+    ```shell
+    python -m spacy download en_core_web_sm
+    python -m spacy download en_core_web_lg
+    ```
 
 #### Verify installation
 Make sure that you are able to import the following packages in python without any errors:

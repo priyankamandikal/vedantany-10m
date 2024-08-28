@@ -76,7 +76,7 @@ if __name__ == "__main__":
     api_key=os.environ.get('PINECONE_API_KEY'),  
     environment=os.environ.get('PINECONE_ENV', 'us-west1-gcp-free')
     )
-    pinecone_index = pinecone.Index("ask-swami-bot")
+    pinecone_index = pinecone.Index("vedantany-10m")
     dimension = 1536  # dim of text-embedding-ada-002
 
     # get all ids from the index

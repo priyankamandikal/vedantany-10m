@@ -111,7 +111,7 @@ if __name__ == "__main__":
     parser.add_argument("--embedding_dir", type=str, default=None, help="Directory containing saved embeddings")
     parser.add_argument("--vectorstore", type=str, default="chroma", help="Name of vectorstore to use. Choose from [pinecone]")
     parser.add_argument("--whisper_model", type=str, default="large-v2", help="Whisper model to use. Options: large-v2")
-    parser.add_argument("--index_name", type=str, default="ask-swami-bot", help="Name of the index in vectorstore")
+    parser.add_argument("--index_name", type=str, default="vedantany-10m", help="Name of the index in vectorstore")
     parser.add_argument("--k", type=int, default=5, help="Number of sources to retrieve")
     parser.add_argument("--ensemble_k", type=int, default=100, help="Number of sources to retrieve for ensemble retriever")
     parser.add_argument("--fusion_type", type=str, default="similarity_fusion", help="Fusion type for ensemble retriever. Choose from [similarity_fusion, rank_fusion]")

@@ -24,7 +24,7 @@ parser.add_argument("--embedding_model", type=str, default="nomic", help="Name o
 parser.add_argument("--embedding_dir", type=str, default=None, help="Directory containing saved embeddings")
 parser.add_argument("--vectorstore", type=str, default="chroma", help="Name of vectorstore to use. Choose from [pinecone]")
 parser.add_argument("--whisper_model", type=str, default="large-v2", help="Whisper model to use. Options: large-v2")
-parser.add_argument("--index_name", type=str, default="ask-swami-bot", help="Name of the index in vectorstore")
+parser.add_argument("--index_name", type=str, default="vedantany-10m", help="Name of the index in vectorstore")
 parser.add_argument("--pass-query", action="store_true", help="Pass a query to the chatbot")
 args = parser.parse_args()
 

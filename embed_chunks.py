@@ -20,7 +20,7 @@ parser.add_argument("--csv_file", type=str, default="bot.csv", help="CSV file co
 # Embedding params
 parser.add_argument("--embedding_model", type=str, default="nomic", help="Embedding model to use. Options: openai, nomic")
 parser.add_argument("--vectorstore", type=str, default="chroma", help="Vectorstore to use. Options: pinecone, chroma")
-parser.add_argument("--index_name", type=str, default="ask-swami-bot", help="Name of the index in vectorstore")
+parser.add_argument("--index_name", type=str, default="vedantany-10m", help="Name of the index in vectorstore")
 parser.add_argument("--save_dir", type=str, default=None, help="Directory to save the output")
 parser.add_argument("--batch_size", type=int, default=100, help="Batch size for dataloader")
 parser.add_argument("--gpu_id", type=int, default=0, help="GPU ID to use")

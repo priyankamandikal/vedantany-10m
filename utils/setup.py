@@ -7,12 +7,14 @@ model_dir = osp.join(project_dir, "models")
 log_dir = osp.join(project_dir, "logs")
 data_dir = osp.join(project_dir, "data")
 metadata_dir = osp.join(data_dir, "metadata")
+audio_dir = osp.join(data_dir, "audio")
 transcript_dir = osp.join(data_dir, "transcript")
 CHUNK_DIR = osp.join(data_dir, "chunks")
 EMBED_DIR = osp.join(data_dir, "embeddings")
 os.makedirs(model_dir, exist_ok=True)
 os.makedirs(log_dir, exist_ok=True)
 os.makedirs(data_dir, exist_ok=True)
+os.makedirs(audio_dir, exist_ok=True)
 os.makedirs(transcript_dir, exist_ok=True)
 os.makedirs(CHUNK_DIR, exist_ok=True)
 os.makedirs(EMBED_DIR, exist_ok=True)
@@ -40,7 +42,6 @@ playlist_id_to_title = {
                 "PLDqahtm2vA73pdnNxGLfTQCG4dLbXY6Ja": "Advaita Vedanta",
                 "PLDqahtm2vA729T2LPOg9FPelznaM-vTIk": "Mandukya Upanishad",
                 "PLDqahtm2vA72vvR5GYAlkuJylJC5_kGXA": "The Lamp of Bliss",
-                "PLDqahtm2vA71FlYHmg4vG-zFUTN8xU7CE": "Short Talks",
                 "PLDqahtm2vA70flIbPCi4vqZ33gFda-THY": "Other Venues",
                 "PLDqahtm2vA72ilWvaXhKRDUemEsz4VCKd": "Lectures on Vedanta",
                 }
